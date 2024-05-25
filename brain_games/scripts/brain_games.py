@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games.cli import welcome_user,name
+from brain_games.cli import welcome_user
 from brain_games.scripts.brain_even import parity
 
 
@@ -9,8 +9,8 @@ def greet():
 
 def main():
     greet()
-    welcome_user()
-    parity()
+    name=welcome_user()
+    parity(name)
 
 
 if __name__ == '__main__':

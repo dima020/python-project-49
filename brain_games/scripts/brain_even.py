@@ -1,15 +1,14 @@
 import prompt
-from brain_games.cli import welcome_user,name
+import random
 
-name=None
 
-def parity():
+def parity(name):
    print('Answer "yes" if the number is even, otherwise answer "no".')
    for i in range(3):
-         number = int(prompt.string('Question: '))
-         print('Question:', number, )
+         rand=random.randint(1, 1000000)
+         print('Question:', rand)
          answer = prompt.string('Your answer: ')
-         k='yes' if number % 2 == 0 else 'no'
+         k='yes' if rand % 2 == 0 else 'no'
          if k==answer:
             print("Correct!")
             if i==2:
@@ -17,6 +16,3 @@ def parity():
          else:
             print("'yes' is wrong answer ;(. Correct answer was 'no'.\n Let's try again,",name,"!")
             break
-
-       
-   #print('Your answer: yes' if number % 2 == 1 else 'Your answer: no')
