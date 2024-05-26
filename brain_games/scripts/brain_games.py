@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from brain_games.cli import welcome_user
 from brain_games.scripts.brain_even import parity
+from brain_games.scripts.brain_calc import expression
 
 
 def greet():
@@ -10,7 +11,7 @@ def greet():
 def main():
     greet()
     name=welcome_user()
-    parity(name)
+    expression(name)
 
 
 if __name__ == '__main__':
