@@ -7,6 +7,15 @@ asciinema rec
 asciinema play
 asciinema upload gsd.cast
 
+
+ git add .
+dim@User:~/dev/python-project-49$ git commit -m "7 проект"
+[main 4604c7d] 7 проект
+ 2 files changed, 129 insertions(+)
+ create mode 100644 gsd.cast
+dim@User:~/dev/python-project-49$ git push origin main
+
+
 ## Демонстрация
 [![asciicast](https://asciinema.org/a/HPpUKSEpccQ6gLDkHLtgBFL5X.png)](https://asciinema.org/a/HPpUKSEpccQ6gLDkHLtgBFL5X)
 
