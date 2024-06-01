@@ -4,6 +4,7 @@ from brain_games.scripts.brain_even import parity
 from brain_games.scripts.brain_calc import expression
 from brain_games.scripts.brain_gcd import game_nod
 from brain_games.scripts.brain_progression import brainprogression
+from brain_games.scripts.brain_prime1 import  brainprime
 
 def greet():
     print('Welcome to the Brain Games!')
@@ -12,7 +13,7 @@ def greet():
 def main():
     greet()
     name=welcome_user()
-    brainprogression(name)
+    brainprime(name)
 
 
 if __name__ == '__main__':
