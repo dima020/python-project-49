@@ -1,11 +1,12 @@
 import random
 import prompt
 
+
 def progression():
     len_=random.randint(5, 14)
     index_=random.randint(1, len_-1)
     x1=random.randint(1, 20)
-    step=random.randint(1,5)
+    step=random.randint(1, 5)
     progression = [x1 + step * i for i in range(len_-1)] 
     hidden_value =progression[index_]
     progression[index_] = ".."
@@ -24,8 +25,5 @@ def brainprogression(name):
                 print('Congratulations,', name, '!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was'{rez}'.")
-            print("Let's try again,",name,"!")
+            print("Let's try again,", name,"!")
             break
-
-
- 

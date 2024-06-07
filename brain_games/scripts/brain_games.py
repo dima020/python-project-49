@@ -6,6 +6,7 @@ from brain_games.scripts.brain_gcd import game_nod
 from brain_games.scripts.brain_progression import brainprogression
 from brain_games.scripts.brain_prime1 import  brainprime
 
+
 def greet():
     print('Welcome to the Brain Games!')
 
